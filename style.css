@@ -1,0 +1,43 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 300px;
+    margin-left: 500px;
+    border-radius: 15px;
+}
+.Digite{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.down{
+    margin-top: 50px;
+}
+h4{
+    margin-top: 100px;
+}
+button {
+    display: inline-block;
+    padding: 8px 18px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #f00b0b;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  button:hover {background-color: #e00f0f}
+  
+  button:active {
+    background-color: #d42929;
+    box-shadow: 0 5px #666;
+  }
